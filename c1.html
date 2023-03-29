@@ -1,0 +1,117 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Course 1</title>
+
+	<!---custom css link---->
+	<link rel="stylesheet" type="text/css" href="{% static 'stylec4.css'%}">
+
+	<link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<!---start header---->
+	<header>
+		<a href="#" class="logo">
+			<img src="{% static 'img/download.png'%}">
+		</a>
+
+		<ul class="navbar">
+			<li><a href="/index">Home</a></li>
+			<li><a href="/index">Courses</a></li>
+			<li><a href="/index">About Us</a></li>
+			<li><a href="/index">Contact</a></li>
+		</ul>
+
+		<div class="header-icons">
+			<button class="bt1"><a href="/register">REGISTER</a></button>
+			<div class="bx bx-menu" id="menu-icon"></div>
+		</div>
+	</header>
+    <!---start home section---->
+	<section class="home" id="home">
+		<div class="home-text">
+			<h6>Internship Duration</h6>
+			<h1>3 Months</h1>
+            <h6>Design and development of drone hardware and software systems</h6>
+			<p>Designing and developing drone hardware and software systems involves a
+                combination of electrical and mechanical engineering, software engineering, and
+                computer science. As an intern in this area, you would have the opportunity to work on
+                various aspects of drone design and development, such as:</p>
+            <p> 1. Hardware Design: This could involve designing and testing components such as
+                motors, controllers, batteries, and cameras for drone systems.</p>
+            <p>2. Software Development: This could involve developing and testing software for
+                drone flight control, navigation, image processing, and data management.</p>
+            <p>3. Flight Testing: This could involve conducting flight tests of drone prototypes to
+                validate the design and performance of the hardware and software systems.</p>
+            <p>4. Integration: This could involve integrating various components and systems, such
+                as sensors, cameras, and data management systems, into a complete drone
+                system.</p>
+            <p>5. Debugging and Troubleshooting: This could involve identifying and fixing issues
+                in the hardware and software systems to ensure reliable and safe operation of
+                the drones.</p>
+            <p>Overall, designing and developing drone hardware and software systems is a
+                challenging and rewarding area of work that requires a strong understanding of
+                engineering principles, technical skills, and a passion for innovation.</p>
+			<!-- <div class="latter">
+				
+					<button class="bt"><a href="register.html">REGISTER HERE</a></button>
+			 </form> -->
+			<!-- </div> -->
+		</div>
+
+		<div class="home-img">
+			<img src="{% static 'img/ac1.avif'%}">
+		</div>
+
+        
+	</section>
+
+     <!---start contact section---->
+	<section class="contact" id="contact">
+		<div class="main-contact">
+			<div class="contact-content">
+				<img src="{% static 'img/antar prerana.png'%}">
+				<img src="{% static 'img/LJ Smart LabZ Logo (1).png'%}">
+				
+			</div>
+
+			<div class="contact-content">
+				<li><a href="#home">Home</a></li>
+			  <li><a href="#categories">Categories</a></li>
+			  <li><a href="#courses">Courses</a></li>
+			  <li><a href="#about">About Us</a></li>
+			  <li><a href="#contact">Contact</a></li>
+			</div>
+
+			<div class="contact-content">
+				<li><a href="/register">Profile</a></li>
+				<li><a href="/register">Login</a></li>
+				<li><a href="/register">Register</a></li>
+				<li><a href="/register">Instructor</a></li>
+				<li><a href="#">Dashboard</a></li>
+			</div>
+
+			<div class="contact-content">
+				<li><a href="#">Ahmedabad,<br>Sarkhej-Okaf, Gujarat 382210</a></li>
+				<li><a href="#">placement@ljinstitutes.edu.in </a></li>
+				<li><a href="#">01646895741</a></li>
+			</div>
+
+		</div>
+	</section>
+
+	<div class="last-text">
+		<p>© 2022 LJ University</p>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,112 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Course 5</title>
+
+	<!---custom css link---->
+	<link rel="stylesheet" type="text/css" href="{% static 'stylec4.css'%}">
+
+	<link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<!---start header---->
+	<header>
+		<a href="#" class="logo">
+			<img src="{% static 'img/download.png'%}">
+		</a>
+
+		<ul class="navbar">
+			<li><a href="/index">Home</a></li>
+			<li><a href="/index">Courses</a></li>
+			<li><a href="/index">About Us</a></li>
+			<li><a href="/index">Contact</a></li>
+		</ul>
+
+		<div class="header-icons">
+			<button class="bt1"><a href="/register">REGISTER</a></button>
+			<div class="bx bx-menu" id="menu-icon"></div>
+		</div>
+	</header>
+    <!---start home section---->
+	<section class="home" id="home">
+		<div class="home-text">
+			<h6>Internship Duration</h6>
+			<h1>3 Months</h1>
+            <h6>Project management and coordination</h6>
+			<p>Project management and coordination are important aspects in drone internship
+                programs. Here are some key responsibilities in this role:</p>
+            <p>1) Defining project scope, goals and deliverables.</p>
+            <p>2) Creating project plans, schedules and budgets.</p>
+            <p>3) Assigning tasks and responsibilities to team members.</p>
+            <p>4) Monitoring progress and ensuring that all tasks are completed on time and within
+                budget.</p>
+            <p>5) Identifying and mitigating potential risks to the project.</p>
+            <p>6) Maintaining communication and coordination with all stakeholders.</p>
+            <p>7) Gathering and analyzing data to evaluate project success and make
+                recommendations for improvement.</p>
+            <p>Ensuring that the project is aligned with the organization's goals and objectives.</p>
+            <p>A successful project manager in a drone internship should have strong leadership,
+                communication, and organizational skills, as well as a solid understanding of drone
+                technology and operations.</p>
+			<!-- <div class="latter">
+					<button class="bt"><a href="register.html">REGISTER HERE</a></button>
+				
+			</div> -->
+		</div>
+
+		<div class="home-img">
+			<img src="{% static 'img/ac51.jpg'%}">
+		</div>
+       
+        
+	</section>
+
+     <!---start contact section---->
+	<section class="contact" id="contact">
+		<div class="main-contact">
+			<div class="contact-content">
+				<img src="{% static 'img/antar prerana.png'%}">
+				<img src="{% static 'img/LJ Smart LabZ Logo (1).png'%}">
+				
+			</div>
+
+			<div class="contact-content">
+				<li><a href="#home">Home</a></li>
+			  <li><a href="#categories">Categories</a></li>
+			  <li><a href="#courses">Courses</a></li>
+			  <li><a href="#about">About Us</a></li>
+			  <li><a href="#contact">Contact</a></li>
+			</div>
+
+			<div class="contact-content">
+				<li><a href="/register">Profile</a></li>
+				<li><a href="/register">Login</a></li>
+				<li><a href="/register">Register</a></li>
+				<li><a href="/register">Instructor</a></li>
+				<li><a href="#">Dashboard</a></li>
+			</div>
+
+			<div class="contact-content">
+				<li><a href="#">Ahmedabad,<br>Sarkhej-Okaf, Gujarat 382210</a></li>
+				<li><a href="#">placement@ljinstitutes.edu.in </a></li>
+				<li><a href="#">01646895741</a></li>
+			</div>
+
+		</div>
+	</section>
+
+	<div class="last-text">
+		<p>© 2022 LJ University</p>
+	</div>
+
+</body>
+</html>
